@@ -87,3 +87,6 @@ any(duplicated(clean_data))
 
 # check for missing values
 any(is.na(clean_data))
+
+#### Save data ####
+write_csv(clean_data, "data/02-analysis_data/intermediate_analysis_data.csv")
